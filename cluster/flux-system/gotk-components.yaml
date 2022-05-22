@@ -359,7 +359,7 @@ spec:
                   of this source.
                 type: boolean
               timeout:
-                default: 600s
+                default: 60s
                 description: The timeout for download operations, defaults to 60s.
                 type: string
             required:
@@ -598,7 +598,7 @@ spec:
                   of this Bucket.
                 type: boolean
               timeout:
-                default: 600s
+                default: 60s
                 description: Timeout for fetch operations, defaults to 60s.
                 type: string
             required:
@@ -911,7 +911,7 @@ spec:
                   of this source.
                 type: boolean
               timeout:
-                default: 600s
+                default: 60s
                 description: The timeout for remote Git operations like cloning, defaults
                   to 60s.
                 type: string
@@ -1254,7 +1254,7 @@ spec:
                   of this GitRepository.
                 type: boolean
               timeout:
-                default: 600s
+                default: 60s
                 description: Timeout for Git operations like cloning, defaults to
                   60s.
                 type: string
